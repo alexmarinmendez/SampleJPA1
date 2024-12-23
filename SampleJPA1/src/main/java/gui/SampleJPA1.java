@@ -9,9 +9,9 @@ public class SampleJPA1 {
 		EmployeesController operaciones = new EmployeesController();
 		
 		//getAll
-//		for (Employees e: operaciones.getAll()) {
-//			System.out.println(e);
-//		}
+		for (Employees e: operaciones.getAll()) {
+			System.out.println(e);
+		}
 		
 		//getById
 		System.out.println(operaciones.getById(10008));
